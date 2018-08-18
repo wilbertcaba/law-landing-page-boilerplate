@@ -5,4 +5,4 @@ This HTML Boilerplate consists of a development environment to jump start any we
 - Bootstrap 4
 - jQuery
 - Node-Sass
-- BrowserSync
+- Live reloading with BrowserSync
