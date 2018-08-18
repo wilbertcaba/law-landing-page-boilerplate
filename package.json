@@ -1,0 +1,22 @@
+{
+  "name": "wilbert-caba-website",
+  "version": "1.0.0",
+  "description": "Portfolio and experience site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w dist/assets/styles dist/assets/styles/base dist/assets/styles/components dist/assets/styles/pages -o dist/assets/styles --source-map true"
+  },
+  "author": "Wilbert Caba",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "node-sass": "^4.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilbertcaba/HTML-Custom-Boilerplate.git"
+    }
+}
