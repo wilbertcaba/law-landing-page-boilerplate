@@ -1,6 +1,6 @@
 # HTML-Custom-Boilerplate
 
-This HTML Boilerplate consists of a development environment to jump start any web project. It includes:
+Lean Bootstrap 4 and Sass Boilerplate jump start any web project. It includes:
 
 - Bootstrap 4
 - jQuery
