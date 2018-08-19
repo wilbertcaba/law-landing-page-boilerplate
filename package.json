@@ -1,10 +1,12 @@
 {
-  "name": "wilbert-caba-website",
+  "name": "sassy-bootstrap-boilerplate",
   "version": "1.0.0",
-  "description": "Portfolio and experience site",
+  "description": "Lean Boilerplate",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w dist/assets/styles dist/assets/styles/base dist/assets/styles/components dist/assets/styles/pages -o dist/assets/styles --source-map true"
+    "sass": "node-sass -w dist/assets/styles dist/assets/styles/base dist/assets/styles/components dist/assets/styles/pages -o dist/assets/styles --source-map true",
+    "browsersync":"node index.js",
+    "start":"npm run sass & npm run browsersync"
   },
   "author": "Wilbert Caba",
   "license": "ISC",
