@@ -13,10 +13,11 @@
   },
   "devDependencies": {
     "browser-sync": "^2.24.6",
+    "bs-html-injector": "^3.0.3",
     "node-sass": "^4.9.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wilbertcaba/Sassy-Bootstrap-Boilerplate.git"
-    }
+  }
 }
