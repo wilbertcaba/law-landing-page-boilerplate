@@ -1,7 +1,7 @@
-# Rizk Law
+# Sassy Bootstrap Boilerplate
 
-Private repo for Rizk Law website project @ PMP Marketing Group. 
-This boilerplate includes:
+Lean Bootstrap 4 and Sass Boilerplate jump start any web project. 
+Includes:
 
 Dependencies:
 - Bootstrap 4
