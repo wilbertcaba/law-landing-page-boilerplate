@@ -4,7 +4,7 @@
 @import "base/base";
 @import "base/color";
 @import "base/typography";
-@import "base/width-height-utility";
+
 //BS4 Required
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
@@ -25,16 +25,18 @@
 @import "../../../node_modules/bootstrap/scss/utilities/shadows";
 @import "../../../node_modules/bootstrap/scss/utilities/spacing";
 @import "../../../node_modules/bootstrap/scss/utilities/sizing";
+@import "base/width-height-utility";
 
 //Vendor
 @import "vendor/dropdown-effects/fade-down";
 @import "vendor/webslidemenu";
-@import "../../../node_modules/slick-carousel/slick/scss/slick-theme";
-@import "../../../node_modules/slick-carousel/slick/scss/slick";
+@import "../../../node_modules/slick-carousel/slick/sass/slick-theme";
+@import "../../../node_modules/slick-carousel/slick/sass/slick";
 
 //Components
 @import "components/header";
 @import "components/footer";
+@import "components/navbar";
 @import "components/breadcrumbs";
 @import "components/buttons";
 @import "components/cards";
