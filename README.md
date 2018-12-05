@@ -9,7 +9,6 @@ Dependencies:
 - Slick Carousel
 - jQuery
 
-
 Dev Dependencies:
 - Node-Sass
 - Live reloading with BrowserSync
