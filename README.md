@@ -8,7 +8,7 @@ Dependencies:
 - Webslide Menu
 - Slick Carousel
 - jQuery
-
+as
 Dev Dependencies:
 - Node-Sass
 - Live reloading with BrowserSync
