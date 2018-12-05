@@ -1,6 +1,6 @@
 # Rizk Law
 
-Private repo for Rizk Law website project @ PMP Marketing Group. Dependencies include:
+Private repo for Rizk Law website project @ PMP Marketing Group. This boilerplate includes:
 
 - Bootstrap 4
 - jQuery
