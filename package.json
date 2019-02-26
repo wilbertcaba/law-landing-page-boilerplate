@@ -15,11 +15,11 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.26.3",
     "bs-html-injector": "^3.0.3",
     "imagemin": "^6.0.0",
     "imagemin-webp": "^5.0.0",
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.11.0"
   },
   "repository": {
     "type": "git",
