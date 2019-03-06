@@ -1,0 +1,18 @@
+.hero {
+    position: relative;
+    height: 463px;
+    background-color: $gray-100;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    > .container,
+    > .container > .row {
+        height: 100%;
+    }
+}
+
+.lawyer-image {
+    position: absolute;
+    bottom: 0;
+}
