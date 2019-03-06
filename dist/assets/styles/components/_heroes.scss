@@ -1,7 +1,7 @@
 .hero {
     position: relative;
     height: 463px;
-    background-color: $gray-100;
+    background-color: $gray-500;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,4 +15,18 @@
 .lawyer-image {
     position: absolute;
     bottom: 0;
+}
+
+.hero-title {
+    margin: 2.5rem 0;
+
+    h1 {
+        font-weight: $font-bold;
+    }
+
+    h2 {
+        font-family: $font-text;
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
 }

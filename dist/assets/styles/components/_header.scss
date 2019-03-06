@@ -1,7 +1,22 @@
 header {
-    background-color: $gray-300;
+    background-color: $gray-800;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: $white;
+}
+
+.phone-number {
+    line-height: 1.1;
+    
+    p {
+        margin: 0;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    a {
+        font-size: 2rem;
+        color: $white;
+    }
 }
