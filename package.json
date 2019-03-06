@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w dist/assets/styles dist/assets/styles/base dist/assets/styles/components dist/assets/styles/pages -o dist/assets/styles --source-map true",
+    "removeCSS": "rm dist/assets/styles/*.css dist/assets/styles/*.css.map",
     "browsersync": "node index.js",
-    "start": "npm run sass & npm run browsersync"
+    "start": "npm run removeCSS & npm run sass & npm run browsersync"
   },
   "author": "Wilbert Caba",
   "license": "ISC",
