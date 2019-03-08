@@ -92,10 +92,10 @@
 }
 
 /////////////////////////////////////////
-// CLOSING ARGUMENT
+// OUR ATTORNEYS
 
 .our-attorneys-template {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
     // background-color: $gray-500;
 
     .attorney-item {
@@ -121,4 +121,22 @@
     .slick-next:before {
         color: $primary;
     }
+
+    .attorney-carousel {
+        margin-bottom: 3rem;
+    }
+}
+
+.badges {
+    background-color: $gray-300;
+    padding: 2rem 0;
+}
+
+.badges-container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
 }

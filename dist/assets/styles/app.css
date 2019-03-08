@@ -4593,7 +4593,7 @@ h3 span {
 
 header {
   background-color: #343a40;
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4798,7 +4798,7 @@ textarea {
   bottom: 0; }
 
 .hero-title {
-  margin: 3.5rem 0; }
+  margin: 3.1rem 0; }
   .hero-title h1 {
     font-weight: 600; }
   .hero-title h2 {
@@ -4863,7 +4863,7 @@ textarea {
   width: 80%; }
 
 .our-attorneys-template {
-  padding: 5rem 0; }
+  padding: 5rem 0 0; }
   .our-attorneys-template .attorney-item {
     display: flex;
     flex-direction: column;
@@ -4878,5 +4878,19 @@ textarea {
   .our-attorneys-template .slick-prev:before,
   .our-attorneys-template .slick-next:before {
     color: #007bff; }
+  .our-attorneys-template .attorney-carousel {
+    margin-bottom: 3rem; }
+
+.badges {
+  background-color: #dee2e6;
+  padding: 2rem 0; }
+
+.badges-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0; }
 
 /*# sourceMappingURL=app.css.map */
