@@ -4579,7 +4579,13 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; }
+
+h3 span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400; }
 
 .section-title {
   font-size: 2.5rem;
@@ -4809,9 +4815,6 @@ textarea {
   background-color: #e9ecef; }
   .case-results h3 {
     text-align: center; }
-    .case-results h3 span {
-      display: block;
-      font-size: 1.5rem; }
 
 .case-results-item-template {
   background-color: #fff;
@@ -4833,19 +4836,31 @@ textarea {
 .practice-area {
   padding: 5rem 0;
   background-color: #adb5bd;
-  position: relative; }
+  background-image: url(https://www.fortheinjured.com/assets/media/images/lp/car-accident.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff; }
   .practice-area > .container > .row {
     position: relative;
     z-index: 5; }
   .practice-area:before {
     content: '';
-    background-color: rgba(108, 117, 125, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 70%;
     height: 100%;
     position: absolute;
     top: 0; }
 
 .closing-argument {
-  padding: 5rem 0; }
+  padding: 3rem 0 5rem; }
+  .closing-argument .case-review-form {
+    margin-top: -140px; }
+
+.closing-argument-list li {
+  margin-bottom: 1rem; }
+
+.w-80 {
+  width: 80%; }
 
 /*# sourceMappingURL=app.css.map */
