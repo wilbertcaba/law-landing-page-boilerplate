@@ -3,7 +3,7 @@
 
 .key-benefits {
     padding: 3rem 0;
-    margin-bottom: 7rem;
+    // margin-bottom: 7rem;
 }
 
 /////////////////////////////////////////
@@ -34,7 +34,7 @@
 
 .testimonials {
     color: #fff;
-    padding: 7rem 0;
+    padding: 7rem 0 9rem;
     background-color: $gray-800;
 }
 
@@ -49,7 +49,7 @@
 .practice-area {
     padding: 5rem 0;
     background-color: $gray-500;
-    background-image: url(https://www.fortheinjured.com/assets/media/images/lp/car-accident.jpg);
+    background-image: url(../media/images/stock-photo-a-young-woman-with-smartphone-by-the-damaged-car-after-a-car-accident-making-a-phone-call-1187006293-BW.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -62,8 +62,8 @@
 
     &:before {
         content:'';
-        background-color: transparentize($color: #000000, $amount: 0.2);
-        width: 70%;
+        background-color: transparentize($color: #000000, $amount: 0.4);
+        width: 65%;
         height: 100%;
         position: absolute;
         top: 0;
@@ -75,7 +75,7 @@
 
 .closing-argument {
     padding: 3rem 0 5rem;
-
+    
     .case-review-form {
         margin-top: -140px
     }
@@ -89,4 +89,36 @@
 
 .w-80 {
     width: 80%;
+}
+
+/////////////////////////////////////////
+// CLOSING ARGUMENT
+
+.our-attorneys-template {
+    padding: 5rem 0;
+    // background-color: $gray-500;
+
+    .attorney-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attorney-item-header {
+        margin-bottom: 1rem;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .attorney-item-title {
+        text-align: center;
+    }
+
+    .slick-prev:before, 
+    .slick-next:before {
+        color: $primary;
+    }
 }

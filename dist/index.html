@@ -147,7 +147,7 @@
     <!-- =============================================== -->
     <!-- Key Benefits                                    -->
     <!-- =============================================== -->
-
+    
     <section class="key-benefits">
         <div class="container">
             <div class="row">
@@ -159,10 +159,97 @@
             </div>
         </div>
     </section>
+    
+    <!-- =============================================== -->
+    <!-- OUR ATTORNEYS                                   -->
+    <!-- =============================================== -->
+
+    <section class="our-attorneys-template">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="section-title">We will represent you</h3>
+                </div>
+            </div>
+
+            <div class="attorneys-carousel">
+                <!-- Attorney Item -->
+                    <div class="attorney-item">
+                        <div class="attorney-item-header">
+                            <img src="assets/media/images/img-lawyer-sm-him-a.svg" alt="">
+                        </div>
+                        <div class="attorney-item-title">
+                            <h4>John Snow</h4>
+                            <span>Partner</span>
+                        </div>
+                    </div>
+
+                <!-- Attorney Item -->
+                <div class="attorney-item">
+                    <div class="attorney-item-header">
+                        <img src="assets/media/images/img-lawyer-sm-her-a.svg" alt="">
+                    </div>
+                    <div class="attorney-item-title">
+                        <h4>Rachel Smith</h4>
+                        <span>Partner</span>
+                    </div>
+                </div>
+
+                <!-- Attorney Item -->
+                <div class="attorney-item">
+                    <div class="attorney-item-header">
+                        <img src="assets/media/images/img-lawyer-sm-her-b.svg" alt="">
+                    </div>
+                    <div class="attorney-item-title">
+                        <h4>Brandi Tyler</h4>
+                        <span>Associate</span>
+                    </div>
+                </div>
+                
+                <!-- Attorney Item -->
+                <div class="attorney-item">
+                    <div class="attorney-item-header">
+                        <img src="assets/media/images/img-lawyer-sm-him-b.svg" alt="">
+                    </div>
+                    <div class="attorney-item-title">
+                        <h4>Kyle Fisher</h4>
+                        <span>Associate</span>
+                    </div>
+                </div>
+
+
+                <!-- Attorney Item -->
+                <div class="attorney-item">
+                    <div class="attorney-item-header">
+                        <img src="assets/media/images/img-lawyer-sm-him-c.svg" alt="">
+                    </div>
+                    <div class="attorney-item-title">
+                        <h4>Martin Lawrence</h4>
+                        <span>Associate</span>
+                    </div>
+                </div>
+
+                <!-- Attorney Item -->
+                <div class="attorney-item">
+                    <div class="attorney-item-header">
+                        <img src="assets/media/images/img-lawyer-sm-him-b.svg" alt="">
+                    </div>
+                    <div class="attorney-item-title">
+                        <h4>Sean Stern</h4>
+                        <span>Associate</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 
     <!-- =============================================== -->
     <!-- Practice Area                                   -->
     <!-- =============================================== -->
+
     <section class="practice-area">
         <div class="container">
             <div class="row">
@@ -390,7 +477,16 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/webslidemenu.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.attorneys-carousel').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 2
+            });
+        });
+    </script>
 </body>
 </html>
